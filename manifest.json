@@ -1,0 +1,18 @@
+{
+
+    "description": "Customise the pieces on the board",
+    "manifest_version": 2,
+    "name": "Custom Chess.com Pieces",
+    "version": "1.0",
+    "icons": {
+      "48": "Icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.chess.com/*"],
+        "js": ["Pieces.js"]
+      }
+    ]
+  
+  }
